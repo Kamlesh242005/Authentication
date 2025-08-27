@@ -30,7 +30,7 @@ const fetchProducts = async () => {
       return;
     }
 
-    const url = "https://authentication-api-vert.vercel.app/product";
+    const url = "https://authentication-ei5a.onrender.com/product";
     const response = await fetch(url, {
       method: "GET",
       headers: {
