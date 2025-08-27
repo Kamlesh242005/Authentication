@@ -30,7 +30,7 @@ const fetchProducts = async () => {
       return;
     }
 
-    const url = "http://localhost:8080/product";
+    const url = "https://authentication-api-vert.vercel.app/product";
     const response = await fetch(url, {
       method: "GET",
       headers: {
