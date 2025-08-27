@@ -25,7 +25,7 @@ const Login = () => {
     }
 
     try {
-      const url = "https://authentication-api-vert.vercel.app/auth/login";
+      const url = "https://authentication-ei5a.onrender.com/auth/login";
       const response = await fetch(url, {
         method: "POST",
         headers: {
